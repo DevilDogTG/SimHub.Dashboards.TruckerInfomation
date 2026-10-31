@@ -1,0 +1,5 @@
+# SimHub's automatic editor backups
+_Backups/
+
+# Exports are release assets, not source
+*.simhubdash

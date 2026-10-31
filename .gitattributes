@@ -1,0 +1,15 @@
+* text=auto
+
+# SimHub owns everything under src/ and rewrites it on save; keep its bytes and line endings exactly
+# as written so a save without changes produces no diff.
+src/** -text
+
+# .djson is a single minified line; pretty-print it for diffs only (register the driver once per clone, see README).
+*.djson diff=djson
+*.metadata diff=djson
+
+*.ressources binary
+*.png binary
+*.ttf binary
+*.TTF binary
+*.simhubdash binary
