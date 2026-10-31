@@ -7,7 +7,6 @@ an idle screen.
 ## Requirements
 
 - SimHub 9.x with ETS2/ATS telemetry
-- The [sjdawson Truck Simulator](https://github.com/sjdawson/TruckSimulatorPlugin) SimHub plugin (`TruckSimulatorPlugin.*` properties)
 - The [DevDogs Truck Simulator](https://github.com/DevilDogTG/SimHub.Plugins.TruckSimulator) SimHub plugin (`DDTruckPlugin.*` properties)
 
 ## Layout
