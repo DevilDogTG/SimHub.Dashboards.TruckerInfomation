@@ -1,0 +1,31 @@
+{
+  "SettingsBuilder": {
+    "Settings": [],
+    "IsEditMode": false,
+    "Prefix": null
+  },
+  "ScreenCount": 2.0,
+  "InGameScreensIndexs": [
+    0
+  ],
+  "IdleScreensIndexs": [
+    1
+  ],
+  "MainPreviewIndex": 0,
+  "IsOverlay": false,
+  "OverlaySizeWarning": true,
+  "MetadataVersion": 2.0,
+  "EnableOnDashboardMessaging": true,
+  "PitScreensIndexs": [
+    0
+  ],
+  "PreferredTouchMode": 0,
+  "SimHubVersion": "9.13.3",
+  "Category": "ETS2",
+  "Title": "Trucker Information",
+  "Description": "Truck Information HUD require sjdawson plugin",
+  "Author": "DevilDogTG",
+  "Width": 960.0,
+  "Height": 540.0,
+  "DashboardVersion": "1.1"
+}
