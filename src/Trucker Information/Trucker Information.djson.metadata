@@ -23,7 +23,7 @@
   "SimHubVersion": "9.13.3",
   "Category": "ETS2",
   "Title": "Trucker Information",
-  "Description": "Truck Information HUD require sjdawson plugin",
+  "Description": "Truck Information HUD, requires the DevDogs Truck Simulator plugin",
   "Author": "DevilDogTG",
   "Width": 960.0,
   "Height": 540.0,
