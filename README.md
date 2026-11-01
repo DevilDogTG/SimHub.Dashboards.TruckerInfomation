@@ -47,3 +47,14 @@ git config diff.djson.textconv "PYTHONUTF8=1 python -m json.tool --no-ensure-asc
 ## Releasing
 
 Export the dashboard from SimHub's Dash Studio and attach the `.simhubdash` to a GitHub release.
+
+`DashboardVersion` (set in Dash Studio's dashboard properties) follows semver, bumped once per merged PR:
+
+| Bump | When |
+|---|---|
+| Major | Users must change their setup to keep it working: a new or newer plugin, a removed screen |
+| Minor | A new visible feature: a panel, readout or screen |
+| Patch | A fix or a tweak to existing behaviour |
+| None | Hidden layers, refactors with no visible change, repo tooling |
+
+Tag the release commit `v<version>` and state the minimum DevDogs plugin version in the release notes.
